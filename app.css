@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    margin: 10px 0px 20px 0px;
+}
+
+span {
+    display: inline-block;
+    padding: 20px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.par {
+    display: none;
+}
+
+.selected {
+    display: block;
+}
+
+.selectedTab {
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+  background-color: white;
+  margin-bottom: -1px;
+}
